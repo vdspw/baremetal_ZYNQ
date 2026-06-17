@@ -1,0 +1,32 @@
+#Vivado
+*.jou
+*.log
+*.str
+.Xil/
+*.cache/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+*.gen/
+*.xpr/
+vivado*.backup.*
+
+#Vitis /XSCT
+*.elf
+*.o
+.metadata/
+Debug/
+Release/
+_ide/
+*/zynq_fsbl/
+*.bif
+
+#Hardware handoff 
+*.xsa
+*.bit
+
+#OS/editor
+.DS_Store
+*.swp
+.cscode/
